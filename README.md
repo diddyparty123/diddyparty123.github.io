@@ -2,6 +2,7 @@
   eaglercraft 1.8.8 u40 but with goguardian bypasses:
 # Bypasses:
   X-CACHE
+  Offline Support (for no-wifi bypass)
   BeforeUnload Anti-Close
   Self-Executer
 # Coming soon?
