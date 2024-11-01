@@ -1,20 +1,18 @@
-onkeydown = e => {
-    if(e.key === 'r' && e.ctrlKey){
-      e.preventDefault();
-      }
+document.addEventListener('keydown', e => {
+    if (e.key.toLowerCase() === 'r' && e.ctrlKey) {
+        e.preventDefault();
     }
+});
 
-function focusDocument() {
-    window.focus();
-}
-document.addEventListener("click", focusDocument);
-document.addEventListener("keypress", focusDocument);
+document.addEventListener("click", () => {
+    document.body.focus();
+});
 
 document.addEventListener('keydown', function(event) {
     if (event.ctrlKey && event.key === '`') {
         event.preventDefault();
         const choice = prompt("Choose an option:\n[1] Write inline code.\n[2] Upload userscript file.\n[3] Import userscript from URL.");
-
+        
         if (choice === '1') {
             const inlineCode = prompt("Enter your inline code:");
             alert("You entered: " + inlineCode);
@@ -30,7 +28,7 @@ document.addEventListener('keydown', function(event) {
                     const code = e.target.result;
                     alert("You uploaded the following code:\n" + code);
                     try {
-                        eval(code); // Execute the uploaded code
+                        eval(code);
                     } catch (error) {
                         alert("Error executing code:\n" + error);
                     }
