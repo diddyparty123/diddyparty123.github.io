@@ -19,7 +19,7 @@ window.eaglercraftXOptsHints = {
 	],
 	checkRelaysForUpdates: true,
 	servers: [
-		{ addr: "https://grand-still-piglet.ngrok-free.app", name: "RPHS - Official Server" },
+		{ addr: "wss://grand-still-piglet.ngrok-free.app", name: "RPHS - Official Server" },
 		{ addr: "wss://mc.arch.lol", name: "ArchMC" },
 		{ addr: "wss://clever-teaching.com", name: "Clever Teaching" },
 		{ addr: "wss://mc.time-legacy.net/", name: "TimeLegacy" },
