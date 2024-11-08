@@ -19,12 +19,11 @@ window.eaglercraftXOptsHints = {
 	],
 	checkRelaysForUpdates: true,
 	servers: [
-		{ addr: "wss://grand-still-piglet.ngrok-free.app", name: "RPHS - Official Server" },
+		{ addr: "ws://rphs.a.pinggy.link:25030 ", name: "RPHS - Official Server" },
 		{ addr: "wss://mc.arch.lol", name: "ArchMC" },
 		{ addr: "wss://clever-teaching.com", name: "Clever Teaching" },
 		{ addr: "wss://mc.time-legacy.net/", name: "TimeLegacy" },
 		{ addr: "wss://mc.ricenetwork.xyz", name: "Rice Network" },
-		{ addr: "wss://mc.asspixel.net", name: "Asspixel Network" },
 		{ addr: "wss://colbster937.dev", name: "WebMC OneBlock" },
 		{ addr: "wss://mc.lamplifesteal.xyz", name: "LampLifesteal" },
 		{ addr: "wss://cbnet.lol", name: "Cheeseburger Network" }
