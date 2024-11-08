@@ -19,7 +19,7 @@ window.eaglercraftXOptsHints = {
 	],
 	checkRelaysForUpdates: true,
 	servers: [
-		{ addr: "ws://rphs.a.pinggy.link:25030 ", name: "RPHS - Official Server" },
+		{ addr: "wss://mydadleftme.hrzn.run/", name: "RPHS - Official Server" },
 		{ addr: "wss://mc.arch.lol", name: "ArchMC" },
 		{ addr: "wss://clever-teaching.com", name: "Clever Teaching" },
 		{ addr: "wss://mc.time-legacy.net/", name: "TimeLegacy" },
