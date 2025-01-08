@@ -1,6 +1,6 @@
 "use strict";
 var relayId = Math.floor(Math.random() * 3);
-//
+//j
 // %%%%%%%%% launch options %%%%%%%%%%%%
 
 window.eaglercraftXOptsHints = {
